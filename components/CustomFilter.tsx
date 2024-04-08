@@ -7,9 +7,6 @@ import { Listbox, Transition } from "@headlessui/react";
 import { CustomFilterProps } from "@/types";
 import { updateSearchParams } from "@/utils";
 
-// import { CustomFilterProps } from "@types";
-// import { updateSearchParams } from "@utils";
-
 export default function CustomFilter({ title, options }: CustomFilterProps) {
   const router = useRouter();
   const [selected, setSelected] = useState(options[0]); // State for storing the selected option

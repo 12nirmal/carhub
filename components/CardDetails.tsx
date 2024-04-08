@@ -4,8 +4,6 @@ import Image from "next/image";
 import { Dialog, Transition } from "@headlessui/react";
 import { generateCarImageUrl } from "@/utils";
 import { CarProps } from "@/types";
-// import { CarProps } from "@types";
-// import { generateCarImageUrl } from "@utils";
 
 interface CarDetailsProps {
   isOpen: boolean;
